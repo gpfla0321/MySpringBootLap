@@ -12,5 +12,6 @@ public class ProdConfig {
         return MyEnvironment.builder()
                 .mode("운영환경")
                 .build();
+
     }
 }

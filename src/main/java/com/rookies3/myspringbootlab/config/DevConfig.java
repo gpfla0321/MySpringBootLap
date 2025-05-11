@@ -9,8 +9,9 @@ import org.springframework.context.annotation.Profile;
 public class DevConfig {
     @Bean
     public MyEnvironment myEnvironment() {
-        return MyEnvironment.builder()
-                .mode("개발환경")
-                .build();
+        return MyEnvironment.builder() //MyEnvironmentBuilder
+                .mode("테스트환경")
+                .build(); //MyEnvironment
+
     }
 }
