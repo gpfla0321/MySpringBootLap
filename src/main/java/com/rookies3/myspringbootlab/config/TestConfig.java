@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Profile;
 
 @Configuration
 @Profile("test")
-public class DevConfig {
+public class TestConfig {
     @Bean
     public MyEnvironment myEnvironment() {
         return MyEnvironment.builder() //MyEnvironmentBuilder
